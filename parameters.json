@@ -1,0 +1,14 @@
+{
+    "debug": true,
+    "policy_learning_rate": 3e-4,
+    "value_learning_rate": 1e-3,
+    "arenas": 50,
+    "epochs": 10,
+    "minibatches": 1,
+    "discretization_bins": 9,
+    "epsilon": 0.2,
+    "gamma": 0.995,
+    "beta": 0.01,
+    "hidden_size": [[512, 256, 256], [512, 512, 256]],
+    "checkpoint_interval": 100
+}

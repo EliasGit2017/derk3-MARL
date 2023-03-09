@@ -1,0 +1,14 @@
+name: derk3
+channels:
+  - pytorch
+  - defaults
+  - nvidia
+dependencies:
+  - pip
+  - python=3.8
+  - pytorch
+  - cudatoolkit=11.6
+  - tqdm
+  - tensorboard
+  - pip:
+    - gym-derk==1.0.0
